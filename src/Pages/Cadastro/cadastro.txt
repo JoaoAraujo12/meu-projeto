@@ -1,0 +1,38 @@
+/* so pra ver
+        
+<h1><font face="helvetica">CADASTRE-SE</font></h1>
+                <h7><font face="helvetica">É fácil e rápido!</font></h7>
+        <img src="https://images.pexels.com/photos/1337386/pexels-photo-1337386.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="alfabeto"/>
+        
+        <input 
+                            id="NAME" 
+                            type="text" 
+                            placeholder="Nome"
+                            // o name serve para indentificar o input na hora de chamar a função
+                            name="name" 
+                            onChange={handleInputChange}/>
+                        <input 
+                            id="EMAIL" 
+                            type="text" 
+                            placeholder="Email" 
+                            name="email"
+                            onChange={handleInputChange}/>
+                        <input 
+                            id="SENHA" 
+                            type="text" 
+                            placeholder="Senha"
+                            name="password" 
+                            onChange={handleInputChange}/>
+                        <input 
+                            id="ENDERECO" 
+                            type="text" 
+                            placeholder="Endereço" 
+                            name="address"
+                            onChange={handleInputChange}/>
+                        <h7>Por que ser artista no século XXI?</h7>
+                        <input 
+                            id="TXTARTE" 
+                            type="text" 
+                            name="text"
+                            onChange={handleInputChange}/>
+        */
