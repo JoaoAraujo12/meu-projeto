@@ -1,27 +1,44 @@
 import React from "react";
 import { Form, Button } from "react-bootstrap";
+import {useHistory} from "react-router-dom";
 import "./Login.css";
+import { MdHome } from "react-icons/md";
 
 function Login(){
 
-    return(
-        <div className="base">
-            <div className="conteiner">
-            <img src="https://lh3.googleusercontent.com/pw/ACtC-3epJ9N8AzB7VhAN90vof4C25dN8kugvl5N7UM5aI904GM162xyUBrtcC3qD9mW56rHBmu3Qg0-DYhD0nqy7ljiLixlHwMuGDPnM6sIqhvh8h6mgQB5KGBhFGkL0Lg2PavZu_70J9DfQsG4XLEWF95JA8w=w562-h267-no?authuser=2" alt="Digital Art"/>
-                <div>
-                    <Form className="inputs">
-                        <Form.Group controlId="Email">
-                            <Form.Control type="email" placeholder="E-mail" />
-                        </Form.Group> 
+    const history = useHistory();
 
-                        <Form.Group controlId="Password">
-                           <Form.Control type="password" placeholder="Password" />
-                        </Form.Group>
-                        <Button variant="dark">Login</Button>{' '}   
-                    </Form>
-                </div>
+    function login(){
+    //    alert("Bem vindo\n");
+        history.push("home");
+    }
+
+    return(
+        
+            <div className="baselogin">
+                <img src="https://cdn.pixabay.com/photo/2017/08/12/10/13/background-2633962_960_720.jpg" alt="Paleta"/>
+                <div className="botaologin">
+                    <Button variant="danger" onClick={login} className="botaohome">
+                        <MdHome/> 
+                    </Button>
+                    <div className="conteinerlogin">
+                        <div>
+                            <Form className="inputslogin">
+                                <Form.Group controlId="Email">
+                                    <Form.Control type="email" placeholder="E-mail" />
+                                </Form.Group> 
+
+                                <Form.Group controlId="Password">
+                                <Form.Control type="password" placeholder="Password" />
+                                </Form.Group>
+                                <Button variant="dark" onClick={login}>Login</Button>{' '}   
+                            </Form>
+                        </div>
+                    </div>
+                </div>    
             </div>
-        </div>
+        
+            
     );
 }
 

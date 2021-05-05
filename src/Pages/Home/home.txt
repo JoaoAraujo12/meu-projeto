@@ -1,0 +1,30 @@
+    const carrosselimagens = [
+        {
+            nome: "d-block w-100",
+            caminhoimagem: "https://images.pexels.com/photos/1292241/pexels-photo-1292241.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+            altimagem: "First slide",
+            titulo: "Primeira Imagem",
+            descricao: "Nulla vitae elit libero, a pharetra augue mollis interdum.",
+        },
+        {
+            nome: "d-block w-100",
+            caminhoimagem: "https://images.pexels.com/photos/1292241/pexels-photo-1292241.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+            altimagem: "Second slide",
+            titulo: "Second slide label",
+            descricao: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        },
+        {
+            nome: "d-block w-100",
+            caminhoimagem: "https://images.pexels.com/photos/1616403/pexels-photo-1616403.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+            altimagem: "Third slide",
+            titulo: "Third slide label",
+            descricao: "Praesent commodo cursus magna, vel scelerisque nisl consectetur.",
+        },
+        {
+            nome: "d-block w-100",
+            caminhoimagem: "https://images.pexels.com/photos/6620183/pexels-photo-6620183.jpeg?cs=srgb&dl=pexels-polina-kovaleva-6620183.jpg&fm=jpg",
+            altimagem: "Fourth slide",
+            titulo: "Fourth slide label",
+            descricao: "O que veio primeiro? O ovo ou a galinha?",
+        }
+    ]

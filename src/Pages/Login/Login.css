@@ -1,25 +1,46 @@
-.container{
+.conteinerlogin {
     display: flex;
     flex-direction: column;
-    max-width: 423px;
-    align-items: center;
+    
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+    margin-bottom: auto;
+    max-width: 300px;
     flex-grow: 1;
-    position: relative;
-    overflow: hidden;
 }
 
-
-.base{
+.baselogin {
     height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
+    max-width: 100%;
+   
 }
 
-.inputs{
-    display: flex;
-    flex-direction: column;
-    margin-left: 16px;
-    margin-right: 16px;
-    margin-block-start: 16px;
+.inputslogin {
+   display: flex;
+   margin-left: 32px;
+   margin-right: 32px;
+   flex-direction: column;
+   margin-top: 100px; 
+   position: relative;
 }
+
+.baselogin img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+    opacity: 0.6;
+}
+
+.botaologin{
+    position: relative;
+    display: inline;
+    height: 100%;
+    width: 100%;
+}
+
